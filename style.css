@@ -583,3 +583,25 @@ ul{
     color: black;
     text-decoration: underline;
     transform: scale(1.5);
+
+::-webkit-scrollbar{
+    width:15px;
+  
+  }
+  
+::-webkit-scrollbar-track{
+    background: #31555F;
+      border-radius:15px;
+    
+  }
+  
+::-webkit-scrollbar-thumb{
+    background:#A8C508;;
+    border-radius:15px;
+    border:2px solid white
+  }
+  
+::-webkit-scrollbar-thumb:hover{
+      border:2px solid #A8C508
+  
+  }    
